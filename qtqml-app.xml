@@ -4,8 +4,8 @@
     <default remote="origin" revision="master" sync-j="4" />
 
     <project name="format" path="format" groups="qtqml-app" remote="origin">
-        <linkfile src=".cmake-format.md" dest=".cmake-format.md"></linkfile>
-        <linkfile src=".clang-format.md" dest=".clang-format.md"></linkfile>
+        <linkfile src=".cmake-format" dest=".cmake-format"></linkfile>
+        <linkfile src=".clang-format" dest=".clang-format"></linkfile>
     </project>
     <project name="qtqml-application" path="app" groups="qtqml-app" remote="origin">
         <linkfile src="README.md" dest="README.md"></linkfile>
