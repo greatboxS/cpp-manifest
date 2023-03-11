@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <remote name="origin" fetch="git@github.com:greatboxS" revision="master" review="" />
+    <remote name="origin" fetch=".." revision="master" review="" />
     <default remote="origin" revision="master" sync-j="4" />
 
     <project name="format" path="format" groups="qtqml-app" remote="origin">
