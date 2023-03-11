@@ -3,16 +3,16 @@
     <remote name="origin" fetch=".." revision="master" review="" />
     <default remote="origin" revision="master" sync-j="4" />
 
-    <project name="format" path="format" groups="qtqml-app" remote="origin">
+    <project name="format" path="format" groups="qtqml-app" revision="master" remote="origin">
         <linkfile src=".cmake-format" dest=".cmake-format"></linkfile>
         <linkfile src=".clang-format" dest=".clang-format"></linkfile>
     </project>
-    <project name="qtqml-application" path="app" groups="qtqml-app" remote="origin">
+    <project name="qtqml-application" path="app" groups="qtqml-app" revision="master" remote="origin">
         <linkfile src="README.md" dest="README.md"></linkfile>
         <linkfile src="LICENSE" dest="LICENSE"></linkfile>
         <linkfile src="scripts/build.sh" dest="build.sh"></linkfile>
         <linkfile src="scripts/gen-app.sh" dest="gen-app.sh"></linkfile>
     </project>
-    <project name="cpp-common" path="common" groups="qtqml-app" remote="origin" />
-    <project name="qtwrapper" path="qtwrapper" groups="qtqml-app" remote="origin" />
+    <project name="cpp-common" path="common" groups="qtqml-app" revision="master" remote="origin" />
+    <project name="qtwrapper" path="qtwrapper" groups="qtqml-app" revision="master" remote="origin" />
 </manifest>
