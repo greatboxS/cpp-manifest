@@ -12,6 +12,8 @@
         <linkfile src="LICENSE" dest="LICENSE"></linkfile>
         <linkfile src="scripts/build.sh" dest="build.sh"></linkfile>
         <linkfile src="scripts/gen-app.sh" dest="gen-app.sh"></linkfile>
+        <linkfile src="scripts/code-format.sh" dest="code-format.sh"></linkfile>
+        <linkfile src="scripts/setup.sh" dest="setup.sh"></linkfile>
     </project>
     <project name="cpp-common" path="common" groups="qtqml-app" revision="master" remote="origin" />
     <project name="qtwrapper" path="qtwrapper" groups="qtqml-app" revision="master" remote="origin" />
